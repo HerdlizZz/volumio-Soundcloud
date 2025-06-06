@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volumio Control Page</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Send Song Link to Volumio</h1>
+        <form id="songLinkForm">
+            <label for="songUrl">Enter Song URL:</label>
+            <input  id="songUrl" name="songUrl" required>
+            <button type="submit">Send to Volumio</button>
+        </form>
+        <div id="responseMessage"></div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
